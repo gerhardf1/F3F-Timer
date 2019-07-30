@@ -3,11 +3,22 @@ import threading
 import socket
 from time import sleep
 import RPi.GPIO as GPIO
+import prctl
 
 UDP_IP = "192.168.43.1"
 UDP_PORT = 8888
 MESSAGE = "Base-x"
  
+def statusLED(port, on=True):
+    """
+    enable the status led
+    """
+    GPIO.setmode(GPIO.BCM)
+    GPIO.setup(port,GPIO.OUT)
+    if on:
+        GPIO.output(port,GPIO.HIGH)
+    else:
+        GPIO.output(port,GPIO.LOW)
 
 def addCallback(port, fctn, falling=True):
     """
@@ -34,6 +45,7 @@ class gpioPort(threading.Thread):
         self.port       = port
         self.activate   = GPIO.HIGH
         self.deactivate = GPIO.LOW
+        prctl.set_name('ptrk.GPIO')
 
         GPIO.setmode(GPIO.BCM)
         GPIO.setup(self.port,GPIO.OUT)
@@ -67,8 +79,10 @@ class gpioPort(threading.Thread):
             if self.event.wait(1):
                 # create rectangle signal on GPIO port
                 GPIO.output(self.port,self.activate)
+		# #### warum ist der u.a. Block nach links gerückt?		
 		# send UDP message
 		sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+		sock.setblocking(0)
 		sock.sendto(MESSAGE.encode('utf-8'), (UDP_IP, UDP_PORT)) 
                 sleep(self.duration/1000.0)
                 GPIO.output(self.port,self.deactivate)
@@ -81,6 +95,7 @@ if __name__ == '__main__':
         print("pressed %d" % value)
 
     addCallback(2,pressed)
+    statusLED(23,on=True)
 
     p1=17
     p2=27
@@ -97,5 +112,6 @@ if __name__ == '__main__':
     port1.join()
     port2.join()
 
+    statusLED(23,on=False)
     GPIO.cleanup()
 
