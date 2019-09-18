@@ -22,12 +22,12 @@ The App receives the UDP broadcasts and handles a single F3F run (starting, 30s 
 * Now piCAMTracker of Base B should be powerred.
 * After booting the App will show the IP address of Base B and is now ready for start.
 * you can select between 3 mode:
-** single: the time for one round is measured
-** continuous: the time for more rounds are measured 
-** beeper: at every Turn signal the beeper is activated
+  * single: the time for one round is measured.
+  * continuous: the time for more rounds is measured, countdown starts 30s after last lap.
+  * beeper: at every Turn signal the beeper is activated, no time measurement.
 
 * To start the 30s countdown the button "Start" has to be pressed.
 * Now the App is ready for Turn signals from Base A and B.
-* After 10 laps the flight time will be announced and recorded
+* After 10 laps the flight time will be announced and recorded.
 * With pressing button "Reset" the time and counters will be resetted.
 * With pressing button "List Rounds" the time for the last rounds are shown.
