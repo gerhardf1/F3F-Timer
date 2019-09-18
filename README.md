@@ -4,6 +4,9 @@ This App is running on Android mobilephones and acts as a simple Timer for the p
 With the last commit to the github repository (End of July 2019) the piCAMTracker sends UDP broadcasts when it is powered and in case a "Turn" is detected.
 The App receives the UDP broadcasts and handles a single F3F run (starting, 30s countdown, Base A crossing off course, Base A crossing in course in course, 10 laps, running time).
 
+# News
+2019-09-16: V0.1 released
+
 # Prerequisite:
 
 * piCAMTracker and the mobilephone has to be in the same IP network.
@@ -18,7 +21,13 @@ The App receives the UDP broadcasts and handles a single F3F run (starting, 30s 
 * After booting the App will show the IP address of Base A.
 * Now piCAMTracker of Base B should be powerred.
 * After booting the App will show the IP address of Base B and is now ready for start.
+* you can select between 3 mode:
+** single: the time for one round is measured
+** continuous: the time for more rounds are measured 
+** beeper: at every Turn signal the beeper is activated
+
 * To start the 30s countdown the button "Start" has to be pressed.
 * Now the App is ready for Turn signals from Base A and B.
-* After 10 rounds the flight time will be announced.
+* After 10 laps the flight time will be announced and recorded
 * With pressing button "Reset" the time and counters will be resetted.
+* With pressing button "List Rounds" the time for the last rounds are shown.
