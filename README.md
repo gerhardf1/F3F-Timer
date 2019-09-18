@@ -1,8 +1,8 @@
 # F3F-Timer
 
-This App is running on Android mobilephones and acts as a simple Timer for the piCAMTracker (see https://github.com/barney-NG/piCAMTracker). 
+This App is running on Android mobilephones and acts as a simple Timer for the piCAMTracker (see https://github.com/barney-NG/piCAMTracker).
 With the last commit to the github repository (End of July 2019) the piCAMTracker sends UDP broadcasts when it is powered and in case a "Turn" is detected.
-The App receives the UDP broadcasts and handles a single F3F run (starting, 30s countdown, Base A crossing off course, Base A crossing in course in course, 10 laps, running time).
+The App receives the UDP broadcasts and handles a single or continuous F3F runs (starting, 30s countdown, Base A crossing off course, Base A crossing in course in course, 10 laps, running time).
 
 # News
 2019-09-16: V0.1 released
@@ -17,9 +17,9 @@ The App receives the UDP broadcasts and handles a single F3F run (starting, 30s 
 * First of all the App has to be started.
 * It shows the own IP address.
 * After pressing button "Connect" it waits for Base A.
-* Now piCAMTracker of Base A should be powerred.
+* Now piCAMTracker of Base A should be powered.
 * After booting the App will show the IP address of Base A.
-* Now piCAMTracker of Base B should be powerred.
+* Now piCAMTracker of Base B should be powered.
 * After booting the App will show the IP address of Base B and is now ready for start.
 * you can select between 3 mode:
   * single: the time for one round is measured.
