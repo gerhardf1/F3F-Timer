@@ -21,7 +21,7 @@ The App receives the UDP broadcasts and handles a single or continuous F3F runs 
 * After booting the App will show the IP address of Base A.
 * Now piCAMTracker of Base B should be powered.
 * After booting the App will show the IP address of Base B and is now ready for start.
-* you can select between 3 mode:
+* you can select between 3 modes:
   * single: the time for one round is measured.
   * continuous: the time for more rounds is measured, countdown starts 30s after last lap.
   * beeper: at every Turn signal the beeper is activated, no time measurement.
