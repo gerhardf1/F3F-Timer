@@ -11,8 +11,9 @@ The App receives the UDP broadcasts and handles a single or continuous F3F runs 
 
 * piCAMTracker and the mobilephone has to be in the same IP network.
 * The simplest solution is to use the mobilephone as a hotspot and connect both piCAMTracker to it.
-* Be sure that the following line is included in config.json:
-"IPUDPBEEP": "255.255.255.255",
+* Be sure that the following lines are included in config.json:
+** "IPUDPBEEP": "255.255.255.255",
+** "accessPoint": false,
 
 # Usage:
 
