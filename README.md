@@ -5,6 +5,7 @@ With the last commit to the github repository (End of July 2019) the piCAMTracke
 The App receives the UDP broadcasts and handles a single or continuous F3F runs (starting, 30s countdown, Base A crossing off course, Base A crossing in course in course, 10 laps, running time).
 
 # News
+2019-09-16: V0.2 released: bugfix BaseA-Counter of 3 leads to lap 1)
 2019-09-16: V0.1 released
 
 # Prerequisite:
