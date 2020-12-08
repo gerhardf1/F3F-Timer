@@ -5,6 +5,10 @@ Starting with V0.5 the piCAMTracker sends UDP broadcasts when it is powered and 
 The App receives the UDP broadcasts and handles a single or continuous F3F runs (starting, 30s countdown, Base A crossing off course, Base A crossing in course, 10 laps, running time).
 
 # News
+* 2020-12-08: V0.4 released:
+  * Button "STEP" heightened
+  * after entering course "Time" is showing previous seconds
+  * Screenorientation fixed to portrait
 * 2020-11-23: V0.3 released: new Button "STEP": manual step through a F3F round
 * 2020-01-19: V0.2 released: bugfix BaseA-Counter = 3 leads to lap 1
 * 2019-09-16: V0.1 released
