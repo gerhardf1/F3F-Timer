@@ -5,6 +5,9 @@ Starting with V0.5 the piCAMTracker sends UDP broadcasts when it is powered and 
 The App receives the UDP broadcasts and handles a single or continuous F3F runs (starting, 30s countdown, Base A crossing off course, Base A crossing in course, 10 laps, running time).
 
 # News
+* 2021-03-28: added a new app F3FTimerRemoteSwitch
+  * can be used instead of piCAMTracker
+  * connects to F3FTimer via WiFi (similar to piCAMTracker)
 * 2020-12-08: V0.4 released:
   * Button "STEP" heightened
   * after entering course "Time" is showing previous seconds
