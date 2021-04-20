@@ -4,7 +4,7 @@ Starting with V0.5 the piCAMTracker sends UDP broadcasts when it is powered and 
 The App receives the UDP broadcasts and handles a single or continuous F3F runs (starting, 30s countdown, Base A crossing off course, Base A crossing in course, 10 laps, running time).
 
 # F3FTimerRemoteSwitch
-The App "F3FTimerRemoteSwitch" is running on a Android mobilephones and can be used can be used instead of piCAMTracker to manually produce "Turn" signals on Base A or B.
+The App "F3FTimerRemoteSwitch" is running on Android mobilephones and can be used can be used instead of piCAMTracker to manually produce "Turn" signals on Base A or B.
 
 # News
 * 2021-04-20: F3FTimer V0.5 released:
