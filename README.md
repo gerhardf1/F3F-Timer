@@ -7,6 +7,9 @@ The App receives the UDP broadcasts and handles a single or continuous F3F runs 
 The App "F3FTimerRemoteSwitch" is running on Android mobilephones and can be used can be used instead of piCAMTracker to manually produce "Turn" signals on Base A or B.
 
 # News
+* 2021-05-01: F3FTimer V0.6 and F3FTimerRemoteSwitch V0.2 released:
+  * communication between Timer and RemoteSwitch is now bidirectional
+  * Lapcounter and endtime are announced at RemoteSwitch
 * 2021-04-20: F3FTimer V0.5 released:
   * tighten the User Interface of "F3FTimer"
   * Button "Start" and "Reset" can now be controlled by UDP Broadcasts, an additional device will follow
