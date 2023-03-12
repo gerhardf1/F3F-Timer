@@ -48,6 +48,7 @@ The App "F3FTimerRemoteSwitch" is running on Android mobilephones and can be use
 * After booting the App will show the IP address of Base A.
 * Now piCAMTracker of Base B should be powered or button "Connect" shoud be pressed on App "F3FTimerRemoteSwitch".
 * After booting the App "F3FTimer" will show the IP address of Base B and is now ready for start.
+  (from version V0.9 onwards the IP addresses are stored and you have to do this procedure only at the first connection)
 * you can select between 3 modes:
   * single: the time for one round is measured.
   * continuous: the time for more rounds is measured, countdown starts 30s after last lap.
