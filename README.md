@@ -4,7 +4,7 @@ Starting with V0.5 the piCAMTracker sends UDP broadcasts when it is powered and 
 The App receives the UDP broadcasts and handles a single or continuous F3F runs (starting, 30s countdown, Base A crossing off course, Base A crossing in course, 10 laps, running time).
 
 # F3FTimerRemoteSwitch
-The App "F3FTimerRemoteSwitch" is running on Android mobilephones and can be used can be used instead of piCAMTracker to manually produce "Turn" signals on Base A or B.
+The App "F3FTimerRemoteSwitch" is running on Android mobilephones and can be used instead of piCAMTracker to manually produce "Turn" signals on Base A or B.
 
 # News
 * 2023-03-12: F3FTimer V0.9 released:
@@ -15,7 +15,7 @@ The App "F3FTimerRemoteSwitch" is running on Android mobilephones and can be use
 * 2021-10-07: F3FTimer V0.7 released:
   * mode "beeper" is working again
 * 2021-05-01: F3FTimer V0.6 and F3FTimerRemoteSwitch V0.2 released:
-  * communication between Timer and RemoteSwitch is now bidirectional
+  * communication between Timer and RemoteSwitch is now bi-directional
   * Lapcounter and endtime are announced at RemoteSwitch
 * 2021-04-20: F3FTimer V0.5 released:
   * tighten the User Interface of "F3FTimer"
@@ -47,8 +47,7 @@ The App "F3FTimerRemoteSwitch" is running on Android mobilephones and can be use
 * Now piCAMTracker of Base A should be powered or button "Connect" shoud be pressed on App "F3FTimerRemoteSwitch"
 * After booting the App will show the IP address of Base A.
 * Now piCAMTracker of Base B should be powered or button "Connect" shoud be pressed on App "F3FTimerRemoteSwitch".
-* After booting the App "F3FTimer" will show the IP address of Base B and is now ready for start.
-  (from version V0.9 onwards the IP addresses are stored and you have to do this procedure only at the first connection)
+* After booting the App "F3FTimer" will show the IP address of Base B and is now ready for start (from version V0.9 onwards the IP addresses are stored and you have to do this procedure only at the first connection).
 * you can select between 3 modes:
   * single: the time for one round is measured.
   * continuous: the time for more rounds is measured, countdown starts 30s after last lap.
