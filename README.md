@@ -7,6 +7,7 @@ The App receives the UDP broadcasts and handles a single or continuous F3F runs 
 The App "F3FTimerRemoteSwitch" is running on Android mobilephones and can be used instead of piCAMTracker to manually produce "Turn" signals on Base A or B.
 
 # News
+* 2024-06-01: added some informations in case of range problems
 * 2024-01-14: F3FTimer V0.10 released:
   * mode "F3B-Speed" remove because of new F3B-Timer (https://github.com/gerhardf1/F3B-Timer)
 * 2023-03-12: F3FTimer V0.9 released:
@@ -61,3 +62,12 @@ The App "F3FTimerRemoteSwitch" is running on Android mobilephones and can be use
 * After 10/4 laps the flight time will be announced and recorded.
 * With pressing button "Reset" the time and counters will be resetted.
 * With pressing button "List Rounds" the time for the last rounds are shown.
+
+# range problems
+In case of having range problems the the following items can be used:
+* using a WiFi access point as a hotspot, e.g. Mikrotik wAP, which has several advantages
+  * is suitable for outdoor use
+  * can be powered by a 3s or 4s LiPo battery
+* using a Raspberry Pi with an external WiFi antenna:
+  * informations how to update the Pi can be found here: https://geeks-r-us.de/2019/08/31/wlan-bluetooth-upgrade-fuer-den-rpi-4/
+  * already updated Pi can be bought here: https://geeks-r-us.de/produkt/raspberry-pi-4-mit-u-fl-buchse/
