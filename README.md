@@ -68,5 +68,5 @@ In case of having range problems the the following items can be used:
   * is suitable for outdoor use
   * can be powered by a 3s or 4s LiPo battery
 * using a Raspberry Pi with an external WiFi antenna:
-  * informations how to update the Pi can be found here: https://geeks-r-us.de/2019/08/31/wlan-bluetooth-upgrade-fuer-den-rpi-4/
-  * already updated Pi can be bought here: https://geeks-r-us.de/produkt/raspberry-pi-4-mit-u-fl-buchse/
+  * informations how to update the Pi can be found [here](https://geeks-r-us.de/2019/08/31/wlan-bluetooth-upgrade-fuer-den-rpi-4/)
+  * already updated Pi can be bought [here](https://geeks-r-us.de/produkt/raspberry-pi-4-mit-u-fl-buchse/)
