@@ -1,5 +1,5 @@
 # F3FTimer
-The App "F3FTimer" is running on Android mobilephones and acts as a simple Timer for the piCAMTracker (see https://github.com/barney-NG/piCAMTracker).
+The App "F3FTimer" is running on Android mobilephones and acts as a simple Timer for the [piCAMTracker](https://github.com/barney-NG/piCAMTracker).
 Starting with V0.5 the piCAMTracker sends UDP broadcasts when it is powered and in case a "Turn" is detected.
 The App receives the UDP broadcasts and handles a single or continuous F3F runs (starting, 30s countdown, Base A crossing off course, Base A crossing in course, 10 laps, running time).
 
@@ -9,7 +9,7 @@ The App "F3FTimerRemoteSwitch" is running on Android mobilephones and can be use
 # News
 * 2024-06-01: added some informations in case of range problems
 * 2024-01-14: F3FTimer V0.10 released:
-  * mode "F3B-Speed" remove because of new F3B-Timer (https://github.com/gerhardf1/F3B-Timer)
+  * mode "F3B-Speed" remove because of new [F3B-Timer](https://github.com/gerhardf1/F3B-Timer)
 * 2023-03-12: F3FTimer V0.9 released:
   * IP addresses are now stored
 * 2022-08-19: F3FTimer V0.8 released:
