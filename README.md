@@ -55,7 +55,6 @@ The App "F3FTimerRemoteSwitch" is running on Android mobilephones and can be use
   * single: the time for one round is measured.
   * continuous: the time for more rounds is measured, countdown starts 30s after last lap.
   * beeper: at every Turn signal the beeper is activated, no time measurement.
-  * F3B-Speed: only 4 laps are measured, no countdown timer
 
 * To start the 30s countdown the button "Start" has to be pressed.
 * Now the App is ready for Turn signals from Base A and B.
