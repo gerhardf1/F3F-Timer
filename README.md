@@ -7,6 +7,13 @@ The App receives the UDP broadcasts and handles a single or continuous F3F runs 
 The App "F3FTimerRemoteSwitch" is running on Android mobilephones and can be used instead of piCAMTracker to manually produce "Turn" signals on Base A or B.
 
 # News
+* 2024-12-28: F3FTimer V0.12 released:
+  * changed design to landscape mode
+  * calculating, showing and saving Lap Time
+  * writing results to file, possibility to Share/Delete the file
+  * screen "List Rounds" extended
+  * added Button "Exit"
+  * hide System UI
 * 2024-06-30: F3FTimer V0.11 released:
   * number of laps selectable (default: 10)
 * 2024-06-01: added some informations in case of range problems
